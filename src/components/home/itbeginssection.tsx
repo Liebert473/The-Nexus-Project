@@ -36,7 +36,7 @@ const ItBeginsSection = () => {
               viewport={{ once: true }}
               data-testid="text-join-paragraph-2"
             >
-              This isn’t just another school activity — it’s your shot to help
+              This isn’t just another school activity, it’s your shot to help
               kickstart something that could inspire students for years to come.
               Right now, you have the chance to step up, bring your ideas, and
               help build a legacy that actually matters. Your voice. Your

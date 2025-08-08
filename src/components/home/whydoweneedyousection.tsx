@@ -62,11 +62,11 @@ const WhyWeNeedYouSection = () => {
                 data-testid="text-why-you-paragraph-1"
               >
                 <b>
-                  The Nexus Project isn’t just about what you can get — it’s
+                  The Nexus Project isn’t just about what you can get, it’s
                   about what you can bring.
                 </b>
                 <br />
-                Your ideas, skills, and creativity aren’t just welcome — they’re
+                Your ideas, skills, and creativity aren’t just welcome, they’re
                 the spark that can set this whole thing in motion.
               </p>
 
@@ -77,7 +77,7 @@ const WhyWeNeedYouSection = () => {
                 Innovation happens when different minds collide. Everyone sees
                 the world differently, and that’s exactly what makes this
                 powerful. Your coding skills, your art, your problem-solving
-                brain — it all adds something no one else can.
+                brain, it all adds something no one else can.
               </p>
 
               <p

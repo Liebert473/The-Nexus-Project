@@ -34,9 +34,8 @@ const MissingClubsSection = () => {
                 </p>
                 <p data-testid="text-missing-paragraph-2">
                   We’re here to change that. Our platform connects students with
-                  different skills, passions, and dreams — creating a place
-                  where projects can take off and people can actually build
-                  together.
+                  different skills, passions, and dreams, creating a place where
+                  projects can take off and people can actually build together.
                 </p>
                 <p data-testid="text-missing-paragraph-3">
                   When creativity meets collaboration, isolation turns into
