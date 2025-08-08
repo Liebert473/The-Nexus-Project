@@ -86,7 +86,7 @@ const InitialProjectsSection = () => {
               {projects.map((project, index) => (
                 <motion.div
                   key={index}
-                  className={`bg-nexus-darker/50 backdrop-blur border border-${project.color}/30 rounded-lg p-6`}
+                  className={`bg-nexus-darker/50 backdrop-blur border border-${project.color} rounded-lg p-6`}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: index * 0.1 }}

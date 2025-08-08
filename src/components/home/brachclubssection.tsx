@@ -104,7 +104,7 @@ const BranchClubsSection = () => {
             {clubs.map((club, index) => (
               <motion.div
                 key={club.id}
-                className={`group bg-nexus-darker/50 backdrop-blur border border-${club.color}/30 rounded-xl p-8 hover:border-${club.color}/60 hover:bg-nexus-darker/70 transition-all duration-300 cursor-pointer`}
+                className={`group bg-nexus-darker/50 backdrop-blur border border-${club.color} rounded-xl p-8 hover:bg-nexus-darker/70 transition-all duration-300 cursor-pointer`}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
@@ -130,7 +130,7 @@ const BranchClubsSection = () => {
                   {club.description}
                 </p>
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className={`border-t border-${club.color}/30 pt-4`}>
+                  <div className={`border-t border-${club.color} pt-4`}>
                     <p
                       className={`text-sm text-${club.color}`}
                       data-testid={`text-${club.id}-details`}
