@@ -61,7 +61,7 @@ const MissingClubsSection = () => {
               viewport={{ once: true }}
             >
               <img
-                src="./public/broken_circuit_board.png"
+                src="/broken_circuit_board.png"
                 alt="Broken circuit board representing disconnected systems"
                 className="rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
                 data-testid="img-broken-circuit"
