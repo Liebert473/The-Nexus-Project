@@ -23,22 +23,24 @@ const MissingClubsSection = () => {
               </h2>
               <div className="space-y-6 text-lg text-gray-300">
                 <p data-testid="text-missing-paragraph-1">
-                  Traditional school clubs operate in isolation, creating
-                  fragmented experiences that limit student potential. Each club
-                  exists as its own island, unable to leverage the collective
-                  power of collaboration.
+                  <b>
+                    Right now, innovation at our school feels like working alone
+                    on an island.
+                  </b>
+                  <br />
+                  Everyone’s got ideas, but there’s no shared space to bring
+                  them together. No clubs. No network. Just scattered efforts
+                  that fizzle out before they can grow.
                 </p>
                 <p data-testid="text-missing-paragraph-2">
-                  The current system fails to provide the integrated approach
-                  students need to thrive in our interconnected world. We're
-                  solving this by creating a cohesive, scalable model that
-                  supports diverse interests while fostering meaningful
-                  collaboration.
+                  We’re here to change that. Our platform connects students with
+                  different skills, passions, and dreams — creating a place
+                  where projects can take off and people can actually build
+                  together.
                 </p>
                 <p data-testid="text-missing-paragraph-3">
-                  Our network breaks down the barriers between disciplines,
-                  creating opportunities for innovation at the intersections of
-                  different fields of study and interest.
+                  When creativity meets collaboration, isolation turns into
+                  innovation.
                 </p>
               </div>
               <div

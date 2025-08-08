@@ -36,11 +36,11 @@ const ItBeginsSection = () => {
               viewport={{ once: true }}
               data-testid="text-join-paragraph-2"
             >
-              You have the chance to be part of something that transcends the
-              ordinary, to help create a movement that will inspire generations
-              of students to come. This is your moment to step forward, to
-              contribute your unique gifts, and to be part of a legacy that
-              matters.
+              This isn’t just another school activity — it’s your shot to help
+              kickstart something that could inspire students for years to come.
+              Right now, you have the chance to step up, bring your ideas, and
+              help build a legacy that actually matters. Your voice. Your
+              talent. Your moment. Let’s make it count.
             </motion.p>
             <motion.p
               className="text-nexus-blue font-semibold"

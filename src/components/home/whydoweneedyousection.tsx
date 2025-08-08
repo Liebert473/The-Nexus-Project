@@ -61,30 +61,32 @@ const WhyWeNeedYouSection = () => {
                 className="text-xl text-gray-300 leading-relaxed"
                 data-testid="text-why-you-paragraph-1"
               >
-                The Nexus Project isn't just about what you can learn—it's about
-                what you can contribute. Your unique intelligence, creativity,
-                and perspective are the catalysts that will transform this
-                vision into reality.
+                <b>
+                  The Nexus Project isn’t just about what you can get — it’s
+                  about what you can bring.
+                </b>
+                <br />
+                Your ideas, skills, and creativity aren’t just welcome — they’re
+                the spark that can set this whole thing in motion.
               </p>
 
               <p
                 className="text-lg text-gray-300"
                 data-testid="text-why-you-paragraph-2"
               >
-                We believe that innovation happens at the intersection of
-                diverse minds working toward a common goal. Each student brings
-                a different lens, a unique skill set, and a fresh perspective
-                that enriches the entire network.
+                Innovation happens when different minds collide. Everyone sees
+                the world differently, and that’s exactly what makes this
+                powerful. Your coding skills, your art, your problem-solving
+                brain — it all adds something no one else can.
               </p>
 
               <p
                 className="text-lg text-gray-300"
                 data-testid="text-why-you-paragraph-3"
               >
-                This project's success depends on building a diverse team of
-                bright minds who are ready to challenge conventions, explore new
-                possibilities, and create something truly extraordinary
-                together.
+                We’re building a crew of bold thinkers who aren’t afraid to
+                break the mold, try wild ideas, and make something that’s never
+                existed before.
               </p>
 
               <div
