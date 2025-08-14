@@ -1,15 +1,9 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Users } from "lucide-react";
 
 export function JointSession() {
-  const [participants] = useState(0); // Mock participant count
-
-  const handleSeeAllParticipants = () => {
-    // This would typically open a participants list or redirect to participants page
-    alert("Participants list would open here!");
-  };
+  const [participants] = useState(4); // Mock participant count
 
   return (
     <div className="flex flex-col items-center space-y-6 p-6 bg-nexus-darker/30 backdrop-blur border border-nexus-blue/20 rounded-xl max-w-md mx-auto">
@@ -33,16 +27,6 @@ export function JointSession() {
           </Badge>
         </div>
       </div>
-
-      {/* See All Participants Button */}
-      <Button
-        onClick={handleSeeAllParticipants}
-        className="bg-nexus-blue hover:bg-nexus-blue/80 text-white font-mono"
-        data-testid="button-see-all-participants"
-      >
-        <Users className="mr-2" size={16} />
-        See all participants
-      </Button>
     </div>
   );
 }
