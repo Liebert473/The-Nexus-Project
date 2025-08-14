@@ -49,7 +49,7 @@ const Footer = () => {
             className="text-gray-500 text-sm"
             data-testid="text-footer-copyright"
           >
-            &copy; 2024 The Nexus Project. Built by students, for students.
+            &copy; 2025 The Nexus Project. Built by students, for students.
           </p>
         </div>
       </div>
