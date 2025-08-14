@@ -8,13 +8,6 @@ export function JointSession() {
   return (
     <div className="flex flex-col items-center space-y-6 p-6 bg-nexus-darker/30 backdrop-blur border border-nexus-blue/20 rounded-xl max-w-md mx-auto">
       <div className="text-center space-y-4">
-        <h2
-          className="font-mono text-2xl font-semibold text-nexus-blue"
-          data-testid="text-joined-participants-title"
-        >
-          Joined Participants
-        </h2>
-
         {/* Participant Counter */}
         <div className="flex items-center justify-center space-x-3">
           <Users className="text-nexus-green" size={24} />
