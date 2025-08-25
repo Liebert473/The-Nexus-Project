@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users } from "lucide-react";
 
 export function JointSession() {
-  const [participants] = useState(4); // Mock participant count
+  const [participants] = useState(8); // Mock participant count
 
   return (
     <div className="flex flex-col items-center space-y-6 p-6 bg-nexus-darker/30 backdrop-blur border border-nexus-blue/20 rounded-xl max-w-md mx-auto">
